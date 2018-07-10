@@ -1,4 +1,4 @@
 package studio.visualdust.product.gztwigets;
 
-public class GFrame {
+public class Theme {
 }

@@ -1,15 +1,14 @@
-package studio.visualdust.product.gztwigets.Tests;
+package studio.visualdust.Tests;
 
 import studio.visualdust.product.gztwigets.GButton;
+import studio.visualdust.product.gztwigets.GFrame.GFrame;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 
 public class GButtonTest {
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
+        GFrame frame = new GFrame();
         frame.setLayout(null);
         frame.setVisible(true);
         frame.setSize(233, 233);
