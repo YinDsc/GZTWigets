@@ -1,7 +1,7 @@
 # 最近一次COMMIT
 
 COMMIT的时间
-2018年 07月 12日 星期四 16:53:07 CST
+2018年 07月 12日 星期四 17:07:28 CST
 ---
 > 是谁COMMIT
 
@@ -22,48 +22,21 @@ VisualDust@outlook.com
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	删除：     src/studio/visualdust/product/gztwigets/GFrame/GFrame.java
-	删除：     src/studio/visualdust/product/gztwigets/GFrame/StatusPanel.java
-	新文件：   src/studio/visualdust/product/gztwigets/StatusPanel.java
+	重命名：   src/studio/visualdust/product/gztwigets/Theme.java -> src/studio/visualdust/product/gztwigets/GTheme.java
 
 尚未暂存以备提交的变更：
-  （使用 "git add/rm <文件>..." 更新要提交的内容）
+  （使用 "git add <文件>..." 更新要提交的内容）
   （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
 
 	修改：     .idea/workspace.xml
 	修改：     README.md
+	修改：     out/production/GZTWigets/studio/visualdust/Tests/GButtonTest$1.class
 	修改：     out/production/GZTWigets/studio/visualdust/Tests/GButtonTest.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GButton$1.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GButton.class
-	删除：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GFrame/GFrame.class
-	删除：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GFrame/StatusPanel.class
+	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GMessageWindow.class
 	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/Theme.class
 	修改：     src/studio/visualdust/Tests/GButtonTest.java
-	修改：     src/studio/visualdust/product/gztwigets/GButton.java
-	修改：     src/studio/visualdust/product/gztwigets/StatusPanel.java
-	修改：     src/studio/visualdust/product/gztwigets/Theme.java
-
-未跟踪的文件:
-  （使用 "git add <文件>..." 以包含要提交的内容）
-
-	.idea/artifacts/
-	out/production/GZTWigets/com/
-	out/production/GZTWigets/studio/visualdust/Tests/GButtonTest$1.class
-	out/production/GZTWigets/studio/visualdust/Tests/lalala.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/GMessageWindow$1.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/GMessageWindow$2.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/GMessageWindow$3.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/GMessageWindow.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/GTextField.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/StatusPanel$1.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/StatusPanel$2.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/StatusPanel$3.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/StatusPanel$WindowSizeListenThread.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/StatusPanel.class
-	src/studio/visualdust/Tests/lalala.form
-	src/studio/visualdust/Tests/lalala.java
-	src/studio/visualdust/product/gztwigets/GMessageWindow.java
-	src/studio/visualdust/product/gztwigets/GTextField.java
+	修改：     src/studio/visualdust/product/gztwigets/GMessageWindow.java
+	修改：     src/studio/visualdust/product/gztwigets/GTheme.java
 
 ---
 > 当前文件列表
@@ -132,8 +105,8 @@ product  Tests
 gztwigets
 
 ./src/studio/visualdust/product/gztwigets:
-GButton.java	     GTextField.java   Theme.java
-GMessageWindow.java  StatusPanel.java
+GButton.java	     GTextField.java  StatusPanel.java
+GMessageWindow.java  GTheme.java
 
 ./src/studio/visualdust/Tests:
 GButtonTest.java  lalala.form  lalala.java

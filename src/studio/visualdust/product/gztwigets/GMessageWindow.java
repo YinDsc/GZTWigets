@@ -84,8 +84,8 @@ public class GMessageWindow extends JDialog {
         label.setForeground(FONT_COLOR);
 
         container.setEnabled(false);
-        this.setLocation(container.getLocation());
         this.SetSize(NOW_SIZE);
+        this.setLocation(container.getX() + container.getWidth() / 2 - NOW_SIZE.width / 2, container.getY() + container.getHeight() / 2 - NOW_SIZE.height / 2);
         this.setVisible(true);
     }
 
