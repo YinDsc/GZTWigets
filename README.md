@@ -8,7 +8,7 @@
 # 最近一次COMMIT
 
 COMMIT的时间
-2018年 07月 12日 星期四 09:38:00 CST
+2018年 07月 12日 星期四 19:09:23 CST
 ---
 > 是谁COMMIT
 
@@ -30,16 +30,21 @@ https://github.com/visualDust/GZTWigets.git
 您的分支与上游分支 'origin/master' 一致。
 
 尚未暂存以备提交的变更：
-  （使用 "git add <文件>..." 更新要提交的内容）
+  （使用 "git add/rm <文件>..." 更新要提交的内容）
   （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
 
+	修改：     .idea/workspace.xml
 	修改：     README.md
-	修改：     commit.sh
+	修改：     out/production/GZTWigets/studio/visualdust/Tests/GButtonTest.class
+	删除：     out/production/GZTWigets/studio/visualdust/product/gztwigets/Theme.class
+	修改：     src/studio/visualdust/Tests/GButtonTest.java
 
 未跟踪的文件:
   （使用 "git add <文件>..." 以包含要提交的内容）
 
-	RM
+	out/production/GZTWigets/studio/visualdust/product/gztwigets/GSpinner.class
+	out/production/GZTWigets/studio/visualdust/product/gztwigets/GTheme.class
+	src/studio/visualdust/product/gztwigets/GSpinner.java
 
 修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
 ---
@@ -85,13 +90,13 @@ product  Tests
 gztwigets
 
 ./out/production/GZTWigets/studio/visualdust/product/gztwigets:
-GButton$1.class		StatusPanel$1.class
-GButton.class		StatusPanel$2.class
-GMessageWindow$1.class	StatusPanel$3.class
-GMessageWindow$2.class	StatusPanel.class
-GMessageWindow$3.class	StatusPanel$WindowSizeListenThread.class
-GMessageWindow.class	Theme.class
-GTextField.class
+GButton$1.class		GTextField.class
+GButton.class		GTheme.class
+GMessageWindow$1.class	StatusPanel$1.class
+GMessageWindow$2.class	StatusPanel$2.class
+GMessageWindow$3.class	StatusPanel$3.class
+GMessageWindow.class	StatusPanel.class
+GSpinner.class		StatusPanel$WindowSizeListenThread.class
 
 ./out/production/GZTWigets/studio/visualdust/Tests:
 GButtonTest$1.class  GButtonTest.class	lalala.class
@@ -109,8 +114,8 @@ product  Tests
 gztwigets
 
 ./src/studio/visualdust/product/gztwigets:
-GButton.java	     GTextField.java  StatusPanel.java
-GMessageWindow.java  GTheme.java
+GButton.java	     GSpinner.java    GTheme.java
+GMessageWindow.java  GTextField.java  StatusPanel.java
 
 ./src/studio/visualdust/Tests:
 GButtonTest.java  lalala.form  lalala.java

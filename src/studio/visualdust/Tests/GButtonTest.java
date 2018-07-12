@@ -27,7 +27,7 @@ public class GButtonTest {
         GButton gButton = new GButton("GMessageWindow test");
         frame.add(gButton);
         gButton.setLocation(111, 111);
-        gButton.SetSize(new Dimension(222, 30));
+        gButton.SetSize(new Dimension(255, 50));
         gButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
