@@ -1,7 +1,7 @@
 # 最近一次COMMIT
 
 COMMIT的时间
-2018年 07月 12日 星期四 17:07:28 CST
+2018年 07月 12日 星期四 17:13:34 CST
 ---
 > 是谁COMMIT
 
@@ -19,25 +19,13 @@ VisualDust@outlook.com
 > COMMIT的细节
 
 位于分支 master
-要提交的变更：
-  （使用 "git reset HEAD <文件>..." 以取消暂存）
-
-	重命名：   src/studio/visualdust/product/gztwigets/Theme.java -> src/studio/visualdust/product/gztwigets/GTheme.java
-
 尚未暂存以备提交的变更：
   （使用 "git add <文件>..." 更新要提交的内容）
   （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
 
-	修改：     .idea/workspace.xml
 	修改：     README.md
-	修改：     out/production/GZTWigets/studio/visualdust/Tests/GButtonTest$1.class
-	修改：     out/production/GZTWigets/studio/visualdust/Tests/GButtonTest.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GMessageWindow.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/Theme.class
-	修改：     src/studio/visualdust/Tests/GButtonTest.java
-	修改：     src/studio/visualdust/product/gztwigets/GMessageWindow.java
-	修改：     src/studio/visualdust/product/gztwigets/GTheme.java
 
+修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
 ---
 > 当前文件列表
 
