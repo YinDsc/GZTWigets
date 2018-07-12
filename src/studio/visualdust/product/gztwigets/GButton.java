@@ -15,12 +15,12 @@ public class GButton extends JPanel {
      good luck.
      YOU MUST USE NULL LAYOUT !!!!!!!!!
     */
-    public static Color DEFAULT_BG_COLOR = new Color(200, 200, 200);
-    public static Color DEFAULT_FG_COLOR = new Color(0, 0, 0);
-    public static Color DEFAULT_MOUSEMOVING_BG = new Color(0, 140, 242);
-    public static Color DEFAULT_MOUSEMOVING_FG = new Color(255, 255, 255);
-    public static Color DEFAULT_CLICK_BG = new Color(133, 133, 133);
-    public static Color DEFAULT_CLICK_FG = DEFAULT_MOUSEMOVING_FG;
+    public Color DEFAULT_BG_COLOR = new Color(222, 222, 222);
+    public Color DEFAULT_FG_COLOR = new Color(0, 0, 0);
+    public Color DEFAULT_MOUSEMOVING_BG = new Color(133, 133, 133);
+    public Color DEFAULT_MOUSEMOVING_FG = new Color(255, 255, 255);
+    public Color DEFAULT_CLICK_BG = new Color(0, 140, 242);
+    public Color DEFAULT_CLICK_FG = DEFAULT_MOUSEMOVING_FG;
 
     private JLabel textLabel = new JLabel("", JLabel.CENTER);
 

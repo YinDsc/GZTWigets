@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GZTWigets:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GZTWigets_jar</output-path>
+    <root id="archive" name="GZTWigets.jar">
+      <element id="module-output" name="GZTWigets" />
+    </root>
+  </artifact>
+</component>
