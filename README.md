@@ -8,7 +8,7 @@
 # 最近一次COMMIT
 
 COMMIT的时间
-2018年 07月 12日 星期四 19:09:23 CST
+2018年 07月 13日 星期五 09:51:22 CST
 ---
 > 是谁COMMIT
 
@@ -29,24 +29,43 @@ https://github.com/visualDust/GZTWigets.git
 位于分支 master
 您的分支与上游分支 'origin/master' 一致。
 
+要提交的变更：
+  （使用 "git reset HEAD <文件>..." 以取消暂存）
+
+	重命名：   src/studio/visualdust/Tests/GButtonTest.java -> src/studio/visualdust/Tests/GZTWigetsTest.java
+	新文件：   src/studio/visualdust/product/gztwigets/GIntSpinner.java
+	删除：     src/studio/visualdust/product/gztwigets/GSpinner.java
+
 尚未暂存以备提交的变更：
   （使用 "git add/rm <文件>..." 更新要提交的内容）
   （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
 
 	修改：     .idea/workspace.xml
 	修改：     README.md
-	修改：     out/production/GZTWigets/studio/visualdust/Tests/GButtonTest.class
-	删除：     out/production/GZTWigets/studio/visualdust/product/gztwigets/Theme.class
-	修改：     src/studio/visualdust/Tests/GButtonTest.java
+	删除：     out/production/GZTWigets/studio/visualdust/Tests/GButtonTest$1.class
+	删除：     out/production/GZTWigets/studio/visualdust/Tests/GButtonTest.class
+	删除：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GSpinner.class
+	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GTextField.class
+	修改：     src/studio/visualdust/Tests/GZTWigetsTest.java
+	修改：     src/studio/visualdust/product/gztwigets/GIntSpinner.java
+	修改：     src/studio/visualdust/product/gztwigets/GTextField.java
 
 未跟踪的文件:
   （使用 "git add <文件>..." 以包含要提交的内容）
 
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/GSpinner.class
-	out/production/GZTWigets/studio/visualdust/product/gztwigets/GTheme.class
-	src/studio/visualdust/product/gztwigets/GSpinner.java
+	out/production/GZTWigets/studio/visualdust/Tests/GZTWigetsTest$1.class
+	out/production/GZTWigets/studio/visualdust/Tests/GZTWigetsTest.class
+	out/production/GZTWigets/studio/visualdust/Tests/XJBTest.class
+	out/production/GZTWigets/studio/visualdust/product/gztwigets/GCheckBox.class
+	out/production/GZTWigets/studio/visualdust/product/gztwigets/GIntSpinner$1.class
+	out/production/GZTWigets/studio/visualdust/product/gztwigets/GIntSpinner$2.class
+	out/production/GZTWigets/studio/visualdust/product/gztwigets/GIntSpinner$3.class
+	out/production/GZTWigets/studio/visualdust/product/gztwigets/GIntSpinner.class
+	out/production/GZTWigets/studio/visualdust/product/gztwigets/GStringPanel.class
+	src/studio/visualdust/Tests/XJBTest.java
+	src/studio/visualdust/product/gztwigets/GCheckBox.java
+	src/studio/visualdust/product/gztwigets/GStringPanel.java
 
-修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
 ---
 > 当前文件列表
 
@@ -90,16 +109,19 @@ product  Tests
 gztwigets
 
 ./out/production/GZTWigets/studio/visualdust/product/gztwigets:
-GButton$1.class		GTextField.class
-GButton.class		GTheme.class
-GMessageWindow$1.class	StatusPanel$1.class
-GMessageWindow$2.class	StatusPanel$2.class
-GMessageWindow$3.class	StatusPanel$3.class
-GMessageWindow.class	StatusPanel.class
-GSpinner.class		StatusPanel$WindowSizeListenThread.class
+GButton$1.class		GMessageWindow.class
+GButton.class		GStringPanel.class
+GCheckBox.class		GTextField.class
+GIntSpinner$1.class	GTheme.class
+GIntSpinner$2.class	StatusPanel$1.class
+GIntSpinner$3.class	StatusPanel$2.class
+GIntSpinner.class	StatusPanel$3.class
+GMessageWindow$1.class	StatusPanel.class
+GMessageWindow$2.class	StatusPanel$WindowSizeListenThread.class
+GMessageWindow$3.class
 
 ./out/production/GZTWigets/studio/visualdust/Tests:
-GButtonTest$1.class  GButtonTest.class	lalala.class
+GZTWigetsTest$1.class  GZTWigetsTest.class  lalala.class  XJBTest.class
 
 ./src:
 studio
@@ -114,11 +136,11 @@ product  Tests
 gztwigets
 
 ./src/studio/visualdust/product/gztwigets:
-GButton.java	     GSpinner.java    GTheme.java
-GMessageWindow.java  GTextField.java  StatusPanel.java
+GButton.java	GIntSpinner.java     GStringPanel.java	GTheme.java
+GCheckBox.java	GMessageWindow.java  GTextField.java	StatusPanel.java
 
 ./src/studio/visualdust/Tests:
-GButtonTest.java  lalala.form  lalala.java
+GZTWigetsTest.java  lalala.form  lalala.java  XJBTest.java
 ```
 
 Auto commit by VisualDust

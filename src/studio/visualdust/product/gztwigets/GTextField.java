@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class GTextField extends JPanel {
-    private Color PRE_PANEL_COLOR = new Color(0, 140, 242);
+    public static Color PRE_PANEL_COLOR = new Color(0, 140, 242);
     private Color TEXTFIELD_BG_COLOR = new Color(222, 222, 222);
     private Color DEFAULT_BG_COLOR = TEXTFIELD_BG_COLOR;
 
@@ -33,6 +33,10 @@ public class GTextField extends JPanel {
         prePanel.setSize(PRE_PANEL_WIDTH, this.getHeight());
         textField.setLocation(PRE_PANEL_WIDTH + DIVIDIER, 0);
         textField.setSize(this.getWidth() - PRE_PANEL_WIDTH - DIVIDIER, this.getHeight());
+    }
+
+    public void SetTipColor(Color color) {
+        prePanel.setBackground(color);
     }
 
     public String getText() {
