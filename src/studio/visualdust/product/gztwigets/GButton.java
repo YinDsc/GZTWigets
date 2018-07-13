@@ -69,6 +69,10 @@ public class GButton extends JPanel {
         this.setBackground(back);
     }
 
+    public void SetText(String text) {
+        textLabel.setText(text);
+    }
+
     public void SetSize(Dimension dimension) {
         this.setSize(dimension);
         textLabel.setLocation(0, 0);
