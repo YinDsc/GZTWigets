@@ -60,10 +60,12 @@ public class GButton extends JPanel {
     }
 
     public void SetForeColor(Color fore) {
+        DEFAULT_FG_COLOR = fore;
         textLabel.setForeground(fore);
     }
 
     public void SetBackColor(Color back) {
+        DEFAULT_BG_COLOR = back;
         this.setBackground(back);
     }
 

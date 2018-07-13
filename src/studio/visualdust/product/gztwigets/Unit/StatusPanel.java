@@ -1,4 +1,4 @@
-package studio.visualdust.product.gztwigets;
+package studio.visualdust.product.gztwigets.Unit;
 
 import javax.swing.*;
 import java.awt.*;
