@@ -2,31 +2,48 @@ package studio.visualdust.product.gztwigets;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class GCheckBox extends JPanel {
     private Color DEFAULT_BG_COLOR = new Color(255, 255, 255);
     private Color MOVINGPANEL_FG = new Color(255, 255, 255);
-    private Color GAIN_BG_COLOR = new Color(211, 211, 211);
+    private Color GAIN_BG_COLOR = new Color(192, 192, 192);
     private Color ON_COLOR = new Color(21, 188, 0);
     private Color OFF_COLOR = new Color(177, 0, 3);
 
-    private int GAIN_WIDTH = 100;
-    private int GAIN_HEIGHT = 15;
-    private int STATEPANEL_HEIGHT = 30;
+    private int GAIN_WIDTH = 60;
+    private int GAIN_HEIGHT = 30;
 
     JLabel titleLabel = new JLabel("", JLabel.CENTER);
-    JPanel gainPanel = new JPanel();
-    GStringPanel stateGStrPanel = new GStringPanel("ON/OFF", MOVINGPANEL_FG);
+    GStringPanel onGStrPanel = new GStringPanel("ON", MOVINGPANEL_FG);
+    GStringPanel offGStrPanel = new GStringPanel("OFF", MOVINGPANEL_FG);
 
-    private boolean chosen = false;
+    private boolean chosen;
 
-    public GCheckBox(String title, boolean bool) {
+    public GCheckBox(String title, boolean b) {
         this.setLayout(null);
-        chosen = false;
+        this.setBackground(DEFAULT_BG_COLOR);
+        onGStrPanel.setBackground(ON_COLOR);
+        offGStrPanel.setBackground(OFF_COLOR);
         titleLabel.setText(title);
         this.add(titleLabel);
-        this.add(gainPanel);
-        this.add(stateGStrPanel);
+        this.add(onGStrPanel);
+        this.add(offGStrPanel);
+        SetChosen(b);
+
+        onGStrPanel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                SetChosen(!chosen);
+            }
+        });
+        offGStrPanel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                SetChosen(!chosen);
+            }
+        });
 
         this.SetSize(this.getSize());
     }
@@ -35,17 +52,28 @@ public class GCheckBox extends JPanel {
         return chosen;
     }
 
-    public void SetChosen(boolean chosen) {
-        this.chosen = chosen;
-        stateGStrPanel.setBackground(chosen ? ON_COLOR : OFF_COLOR);
+    public void SetChosen(boolean b) {
+        this.chosen = b;
+        if (b) {
+            onGStrPanel.setBackground(ON_COLOR);
+            onGStrPanel.SetText("ON");
+            offGStrPanel.setBackground(GAIN_BG_COLOR);
+            offGStrPanel.SetText("");
+        } else {
+            offGStrPanel.setBackground(OFF_COLOR);
+            offGStrPanel.SetText("OFF");
+            onGStrPanel.setBackground(GAIN_BG_COLOR);
+            onGStrPanel.SetText("");
+        }
     }
 
     public void SetSize(Dimension dimension) {
         this.setSize(dimension);
-        gainPanel.setLocation(this.getWidth() - GAIN_WIDTH, this.getHeight() / 2 - GAIN_HEIGHT / 2);
         titleLabel.setLocation(0, 0);
-        titleLabel.setSize(this.getWidth() - gainPanel.getWidth(), this.getHeight());
-        stateGStrPanel.Set_Size(new Dimension(gainPanel.getWidth() / 2, STATEPANEL_HEIGHT));
-        stateGStrPanel.setLocation(chosen ? this.getWidth() - gainPanel.getWidth() / 2 : gainPanel.getX(), this.getHeight() / 2 - STATEPANEL_HEIGHT / 2);
+        titleLabel.setSize(this.getWidth() - GAIN_WIDTH, this.getHeight());
+        onGStrPanel.SetSize(new Dimension(GAIN_WIDTH, GAIN_HEIGHT));
+        onGStrPanel.setLocation(this.getWidth() - GAIN_WIDTH, this.getHeight() / 2 - GAIN_HEIGHT / 2);
+        offGStrPanel.SetSize(new Dimension(GAIN_WIDTH, GAIN_HEIGHT));
+        offGStrPanel.setLocation(this.getWidth() - GAIN_WIDTH * 2, this.getHeight() / 2 - GAIN_HEIGHT / 2);
     }
 }

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c1620c3-bb4e-4844-987a-6dd3f0f08ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GIntSpinner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/Tests/GButtonTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/Tests/GButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/product/gztwigets/GSpinner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/product/gztwigets/GTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/product/gztwigets/GTextField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/studio/visualdust/Tests/GButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studio/visualdust/Tests/GZTWigetsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GSpinner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/Tests/GZTWigetsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/Tests/GZTWigetsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/product/gztwigets/GCheckBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/product/gztwigets/GCheckBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/product/gztwigets/GStringPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GZTWigets/studio/visualdust/product/gztwigets/GStringPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studio/visualdust/Tests/GZTWigetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studio/visualdust/Tests/GZTWigetsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GStringPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GStringPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,18 +23,10 @@
       <file leaf-file-name="GIntSpinner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GIntSpinner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="19">
               <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#713#865#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#961#1128#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1244#1487#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#2470#2471#0" expanded="true" />
-                <element signature="e#2526#2527#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +35,12 @@
       <file leaf-file-name="GZTWigetsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/studio/visualdust/Tests/GZTWigetsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state>
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <element signature="e#1533#1952#0" expanded="true" />
+                <element signature="e#1951#1952#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,10 +53,14 @@
       <file leaf-file-name="GCheckBox.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GCheckBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+            <state relative-caret-position="280">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1322#1477#0" expanded="true" />
+                <element signature="e#1476#1477#0" expanded="true" />
+                <element signature="e#1518#1673#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,12 +69,8 @@
       <file leaf-file-name="GStringPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GStringPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-              <folding>
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -102,6 +96,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gainPanel.getWidth()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>GAIN_WIDTH</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -122,18 +124,19 @@
         <option value="$PROJECT_DIR$/src/studio/visualdust/Tests/GButtonTest.java" />
         <option value="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GSpinner.java" />
         <option value="$PROJECT_DIR$/src/studio/visualdust/Tests/XJBTest.java" />
-        <option value="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GStringPanel.java" />
         <option value="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GIntSpinner.java" />
+        <option value="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GStringPanel.java" />
+        <option value="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GCheckBoxOri.java" />
         <option value="$PROJECT_DIR$/src/studio/visualdust/Tests/GZTWigetsTest.java" />
         <option value="$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GCheckBox.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="392" />
-    <option name="y" value="61" />
-    <option name="width" value="654" />
-    <option name="height" value="767" />
+    <option name="x" value="450" />
+    <option name="y" value="34" />
+    <option name="width" value="950" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -144,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,19 +179,13 @@
               <item name="visualdust" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GZTWigets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZTWigets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="visualdust" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="lalala" type="e9f4de52:FormNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,13 +322,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19427083" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952996" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -350,19 +345,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/Tests/lalala.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GTheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/StatusPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
@@ -646,31 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/Tests/lalala.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GIntSpinner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#713#865#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#961#1128#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1244#1487#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#2470#2471#0" expanded="true" />
-            <element signature="e#2526#2527#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,30 +641,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/Tests/GZTWigetsTest.java">
+    <entry file="jar://$USER_HOME$/Application/jdk-10/lib/src.zip!/java.desktop/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="171">
+          <caret line="2096" column="16" selection-start-line="2096" selection-start-column="16" selection-end-line="2096" selection-end-column="16" />
+          <folding>
+            <element signature="e#72045#72046#0" expanded="true" />
+            <element signature="e#72071#72072#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GStringPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        <state relative-caret-position="133">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GIntSpinner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding>
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/Tests/lalala.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GCheckBoxOri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/studio/visualdust/Tests/GZTWigetsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#1533#1952#0" expanded="true" />
+            <element signature="e#1951#1952#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/studio/visualdust/product/gztwigets/GCheckBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+        <state relative-caret-position="280">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1322#1477#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1518#1673#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
           </folding>
         </state>
       </provider>

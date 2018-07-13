@@ -47,9 +47,17 @@ public class GZTWigetsTest {
                 int tmpR = (int) (Math.random() * 255);
                 int tmpG = (int) (Math.random() * 255);
                 int tmpB = (int) (Math.random() * 255);
+                gCheckBox.SetChosen(((int) (Math.random() * 255) > 122));
                 textField.SetTipColor(new Color(tmpR, tmpG, tmpB));
             }
         });
+    }
 
+    public void sleepMe(long mill) {
+        try {
+            Thread.sleep(mill);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

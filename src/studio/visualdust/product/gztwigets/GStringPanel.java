@@ -6,7 +6,7 @@ import java.awt.*;
 public class GStringPanel extends JPanel {
     private Color DEFAULT_BG_COLOR = new Color(255, 255, 255);
 
-    private JLabel textLabel = new JLabel("", JLabel.CENTER);
+    public JLabel textLabel = new JLabel("", JLabel.CENTER);
 
     public GStringPanel(String text, Color fgc) {
         this.setLayout(null);
@@ -20,7 +20,7 @@ public class GStringPanel extends JPanel {
         textLabel.setText(txt);
     }
 
-    public void Set_Size(Dimension dimension) {
+    public void SetSize(Dimension dimension) {
         this.setSize(dimension);
         textLabel.setLocation(0, 0);
         textLabel.setSize(this.getSize());
