@@ -8,7 +8,7 @@
 # 最近一次COMMIT
 
 COMMIT的时间
-2018年 07月 13日 星期五 11:22:23 CST
+2018年 07月 13日 星期五 11:28:11 CST
 ---
 > 是谁COMMIT
 
@@ -27,7 +27,7 @@ https://github.com/visualDust/GZTWigets.git
 > COMMIT的细节
 
 位于分支 master
-您的分支领先 'origin/master' 共 1 个提交。
+您的分支领先 'origin/master' 共 2 个提交。
   （使用 "git push" 来发布您的本地提交）
 
 尚未暂存以备提交的变更：
@@ -35,7 +35,6 @@ https://github.com/visualDust/GZTWigets.git
   （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
 
 	修改：     README.md
-	修改：     RM
 
 修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
 ---
