@@ -35,6 +35,7 @@ public class GZTWigetsTest {
         frame.add(gCheckBox);
         gCheckBox.setLocation(111, 333);
         gCheckBox.SetSize(new Dimension(333, 111));
+        gCheckBox.SetEnable(false);
 
         GButton gButton = new GButton("GMessageWindow test");
         frame.add(gButton);

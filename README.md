@@ -8,7 +8,7 @@
 # 最近一次COMMIT
 
 COMMIT的时间
-2018年 07月 14日 星期六 01:58:21 CST
+2018年 07月 14日 星期六 15:51:19 CST
 ---
 > 是谁COMMIT
 
@@ -36,25 +36,13 @@ https://github.com/visualDust/GZTWigets.git
 	删除：     src/studio/visualdust/Tests/XJBTest.java
 
 尚未暂存以备提交的变更：
-  （使用 "git add/rm <文件>..." 更新要提交的内容）
+  （使用 "git add <文件>..." 更新要提交的内容）
   （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
 
-	修改：     .idea/misc.xml
 	修改：     .idea/workspace.xml
 	修改：     README.md
 	修改：     out/artifacts/GZTWigetsLib/GZTWigetsLib.jar
-	删除：     out/production/GZTWigets/studio/visualdust/Tests/GZTWigetsTest$1.class
-	删除：     out/production/GZTWigets/studio/visualdust/Tests/GZTWigetsTest.class
-	删除：     out/production/GZTWigets/studio/visualdust/Tests/XJBTest.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GButton.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GCheckBox$1.class
-	删除：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GCheckBox$2.class
 	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GCheckBox.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GIntSpinner.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GMessageWindow.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/GTheme.class
-	修改：     out/production/GZTWigets/studio/visualdust/product/gztwigets/Unit/StatusPanel$WindowSizeListenThread.class
-	修改：     src/studio/visualdust/product/gztwigets/GButton.java
 	修改：     src/studio/visualdust/product/gztwigets/GCheckBox.java
 
 未跟踪的文件:
@@ -67,7 +55,7 @@ https://github.com/visualDust/GZTWigets.git
 
 ```
 .:
-commit.sh  GZTWigets.iml  out  README.md  RM  src
+commit.sh  GZTWigets.iml  LICENSE  out	README.md  RM  src
 
 ./out:
 artifacts  production

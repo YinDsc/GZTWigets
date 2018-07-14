@@ -16,7 +16,7 @@ public class GCheckBox extends JPanel {
     private int GAIN_HEIGHT = 30;
 
     JLabel titleLabel = new JLabel("", JLabel.CENTER);
-    JLabel coverLabel = new JLabel();
+    public JLabel listenerLabel = new JLabel();
     GStringPanel onGStrPanel = new GStringPanel("ON", MOVINGPANEL_FG);
     GStringPanel offGStrPanel = new GStringPanel("OFF", MOVINGPANEL_FG);
 
@@ -31,10 +31,10 @@ public class GCheckBox extends JPanel {
         this.add(titleLabel);
         this.add(onGStrPanel);
         this.add(offGStrPanel);
-        this.add(coverLabel);
+        this.add(listenerLabel);
         SetChosen(b);
 
-        coverLabel.addMouseListener(new MouseAdapter() {
+        listenerLabel.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {
                 SetChosen(!chosen);
@@ -63,6 +63,12 @@ public class GCheckBox extends JPanel {
         }
     }
 
+    public void SetEnable(boolean b) {
+        listenerLabel.setVisible(b);
+        onGStrPanel.SetText(b?"ON":"X");
+        offGStrPanel.SetText(b?"OFF":"X");
+    }
+
     public void SetSize(Dimension dimension) {
         this.setSize(dimension);
         titleLabel.setLocation(0, 0);
@@ -71,7 +77,7 @@ public class GCheckBox extends JPanel {
         onGStrPanel.setLocation(this.getWidth() - GAIN_WIDTH, this.getHeight() / 2 - GAIN_HEIGHT / 2);
         offGStrPanel.SetSize(new Dimension(GAIN_WIDTH, GAIN_HEIGHT));
         offGStrPanel.setLocation(this.getWidth() - GAIN_WIDTH * 2, this.getHeight() / 2 - GAIN_HEIGHT / 2);
-        coverLabel.setSize(GAIN_WIDTH * 2, GAIN_HEIGHT);
-        coverLabel.setLocation(this.getWidth() - GAIN_WIDTH * 2, this.getHeight() / 2 - GAIN_HEIGHT / 2);
+        listenerLabel.setSize(GAIN_WIDTH * 2, GAIN_HEIGHT);
+        listenerLabel.setLocation(this.getWidth() - GAIN_WIDTH * 2, this.getHeight() / 2 - GAIN_HEIGHT / 2);
     }
 }
