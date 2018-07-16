@@ -1,5 +1,7 @@
 package studio.visualdust.product.gztwigets;
 
+import studio.visualdust.product.gztwigets.GStringPanel;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -21,6 +23,7 @@ public class GCheckBox extends JPanel {
     GStringPanel offGStrPanel = new GStringPanel("OFF", MOVINGPANEL_FG);
 
     private boolean chosen;
+    private boolean isEnabled = true;
 
     public GCheckBox(String title, boolean b) {
         this.setLayout(null);
@@ -49,30 +52,38 @@ public class GCheckBox extends JPanel {
     }
 
     public void SetChosen(boolean b) {
-        this.chosen = b;
-        if (b) {
-            onGStrPanel.setBackground(ON_COLOR);
-            onGStrPanel.SetText("ON");
-            offGStrPanel.setBackground(GAIN_BG_COLOR);
-            offGStrPanel.SetText("");
-        } else {
-            offGStrPanel.setBackground(OFF_COLOR);
-            offGStrPanel.SetText("OFF");
-            onGStrPanel.setBackground(GAIN_BG_COLOR);
-            onGStrPanel.SetText("");
+        if (isEnabled) {
+            this.chosen = b;
+            if (b) {
+                onGStrPanel.setBackground(ON_COLOR);
+                onGStrPanel.SetText("ON");
+                offGStrPanel.setBackground(GAIN_BG_COLOR);
+                offGStrPanel.SetText("");
+            } else {
+                offGStrPanel.setBackground(OFF_COLOR);
+                offGStrPanel.SetText("OFF");
+                onGStrPanel.setBackground(GAIN_BG_COLOR);
+                onGStrPanel.SetText("");
+            }
         }
     }
 
     public void SetEnable(boolean b) {
+
         listenerLabel.setVisible(b);
-        onGStrPanel.SetText(b?"ON":"X");
-        offGStrPanel.SetText(b?"OFF":"X");
+        isEnabled = b;
+        onGStrPanel.SetText(b ? "ON" : "X");
+        offGStrPanel.SetText(b ? "OFF" : "X");
+    }
+
+    public boolean IsEnabled() {
+        return isEnabled;
     }
 
     public void SetSize(Dimension dimension) {
         this.setSize(dimension);
         titleLabel.setLocation(0, 0);
-        titleLabel.setSize(this.getWidth() - GAIN_WIDTH, this.getHeight());
+        titleLabel.setSize(this.getWidth() - 2 * GAIN_WIDTH, this.getHeight());
         onGStrPanel.SetSize(new Dimension(GAIN_WIDTH, GAIN_HEIGHT));
         onGStrPanel.setLocation(this.getWidth() - GAIN_WIDTH, this.getHeight() / 2 - GAIN_HEIGHT / 2);
         offGStrPanel.SetSize(new Dimension(GAIN_WIDTH, GAIN_HEIGHT));
