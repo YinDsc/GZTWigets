@@ -25,12 +25,12 @@ public class GMessageWindow extends JDialog {
 
     private int state = -1;
 
-    GButton okButton = new GButton("Ok");           //state 0
-    GButton noButton = new GButton("No");           //state 1
-    GButton cancelButton = new GButton("Cancel");   //state 2
+    public GButton okButton = new GButton("Ok");           //state 0
+    public GButton noButton = new GButton("No");           //state 1
+    public GButton cancelButton = new GButton("Cancel");   //state 2
 
-    GTextField textField = new GTextField("");
-    JLabel label = new JLabel("", JLabel.LEFT);
+    public GTextField textField = new GTextField("");
+    public JLabel label = new JLabel("", JLabel.LEFT);
 
     public GMessageWindow(Container container, int style, String message) {
         this.setLayout(null);
