@@ -9,7 +9,7 @@ public class GTheme {
     }
 
     public static void ResetFont() {
-        Font f = new Font("Ubuntu", 0, 20);
+        Font f = new Font("等线", 0, 20);
         String names[] = {"Label", "CheckBox", "PopupMenu", "MenuItem", "CheckBoxMenuItem",
                 "JRadioButtonMenuItem", "ComboBox", "Button", "Tree", "ScrollPane",
                 "TabbedPane", "EditorPane", "TitledBorder", "Menu", "TextArea",

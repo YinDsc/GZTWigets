@@ -1,7 +1,5 @@
 package studio.visualdust.product.gztwigets;
 
-import studio.visualdust.product.gztwigets.GStringPanel;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
